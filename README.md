@@ -1,5 +1,3 @@
 # Pemrogaman-Terstruktur
-Praktikum python
-Lina Nurul
-K3521039
-
+Nama:Lina Nurul
+Nim:K3521039
