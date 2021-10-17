@@ -1,0 +1,25 @@
+print('Golongan A gaji pokok Rp.10.000.000,00 dengan potongan 2.5%')
+print('Golongan B gaji pokok Rp.8.500.000,00 dengan potongan 2.0%')
+print('Golongan C gaji pokok Rp.7.000.000,00 dengan potongan 1.5%')
+print('Golongan D gaji pokok Rp.5.500.000,00 dengan potongan 1.0%')
+#input data
+kode=(input('Masukkan kode karyawan:'))
+nama=(input('Masukkan nama karyawan:'))
+gol=(input('Masukkan golongan karyawan:'))
+
+print('______________________________________________________________')
+#hitung gaji karyawan
+print('====================================')
+print('STRUK RINCIAN GAJI KARYAWAN')
+print('-----------------------------------------------------------')
+print('Nama karyawan:', nama, '.')
+print('Golongan:', gol, '.')
+print('-----------------------------------------------------------')
+gagol=float(input('Masukkan gaji golongan karyawan:'))
+pot=float(input('Masukkan potongan persentase dari golongan karyawan(%):'))
+print('-----------------------------------------------------------')
+hasil=gagol * (pot/100)
+print('diskon: Rp.', float(hasil))
+gaber=gagol - hasil
+print('Gaji bersih:Rp.', float(gaber))
+print('-----------------------------------------------------------')
