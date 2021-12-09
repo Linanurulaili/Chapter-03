@@ -1,0 +1,3 @@
+M01|Lina|Pemograman terstruktur|2021-12-08|2021-12-15
+M02| budi|Pemrogaman pascal|2021-12-08|2021-12-15
+M03|Galuh elek|Drakor|2021-12-08|2021-12-15
